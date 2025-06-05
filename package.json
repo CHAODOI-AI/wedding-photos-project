@@ -1,0 +1,14 @@
+{
+  "name": "wedding-photos-project",
+  "version": "1.0.0",
+  "description": "ระบบถ่ายรูปงานแต่งงานพร้อมระบบจดจำใบหน้า",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd nextjs-frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../nextjs-frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+} 

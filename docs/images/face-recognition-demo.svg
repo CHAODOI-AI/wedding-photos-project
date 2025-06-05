@@ -1,0 +1,48 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- พื้นหลัง -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- กรอบรูปภาพ -->
+  <rect x="50" y="50" width="300" height="300" rx="10" fill="#ffffff" stroke="#dddddd" stroke-width="2"/>
+  
+  <!-- รูปภาพงานแต่งงาน (จำลอง) -->
+  <rect x="60" y="60" width="280" height="280" rx="5" fill="#f0f0f0"/>
+  <circle cx="200" cy="150" r="70" fill="#e0e0e0"/>
+  <circle cx="120" cy="220" r="50" fill="#e0e0e0"/>
+  <circle cx="280" cy="220" r="50" fill="#e0e0e0"/>
+  
+  <!-- กรอบใบหน้าที่ตรวจจับได้ -->
+  <rect x="170" y="120" width="60" height="60" rx="30" fill="none" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,5"/>
+  <rect x="100" y="200" width="40" height="40" rx="20" fill="none" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,5"/>
+  <rect x="260" y="200" width="40" height="40" rx="20" fill="none" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- ลูกศรเชื่อมโยง -->
+  <line x1="230" y1="150" x2="380" y2="120" stroke="#4ecdc4" stroke-width="2"/>
+  <line x1="140" y1="220" x2="380" y2="200" stroke="#4ecdc4" stroke-width="2"/>
+  <line x1="300" y1="220" x2="380" y2="280" stroke="#4ecdc4" stroke-width="2"/>
+  
+  <!-- ผลลัพธ์การจดจำใบหน้า -->
+  <rect x="400" y="50" width="350" height="300" rx="10" fill="#ffffff" stroke="#dddddd" stroke-width="2"/>
+  
+  <!-- ใบหน้าที่ระบบจดจำได้ -->
+  <g transform="translate(420, 100)">
+    <circle cx="30" cy="30" r="30" fill="#f0f0f0"/>
+    <text x="80" y="20" font-family="Arial" font-size="16" fill="#333333">คุณสมชาย ใจดี</text>
+    <text x="80" y="45" font-family="Arial" font-size="14" fill="#666666">ความเชื่อมั่น: 98.5%</text>
+  </g>
+  
+  <g transform="translate(420, 180)">
+    <circle cx="30" cy="30" r="30" fill="#f0f0f0"/>
+    <text x="80" y="20" font-family="Arial" font-size="16" fill="#333333">คุณสมหญิง รักดี</text>
+    <text x="80" y="45" font-family="Arial" font-size="14" fill="#666666">ความเชื่อมั่น: 97.2%</text>
+  </g>
+  
+  <g transform="translate(420, 260)">
+    <circle cx="30" cy="30" r="30" fill="#f0f0f0"/>
+    <text x="80" y="20" font-family="Arial" font-size="16" fill="#333333">คุณมานี มีทรัพย์</text>
+    <text x="80" y="45" font-family="Arial" font-size="14" fill="#666666">ความเชื่อมั่น: 95.8%</text>
+  </g>
+  
+  <!-- หัวข้อ -->
+  <text x="400" y="30" font-family="Arial" font-weight="bold" font-size="20" fill="#333333">ระบบจดจำใบหน้าอัจฉริยะ</text>
+</svg> 

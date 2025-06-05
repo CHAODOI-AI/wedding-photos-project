@@ -1,0 +1,73 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- พื้นหลัง -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- หัวข้อ -->
+  <text x="400" y="40" font-family="Arial" font-weight="bold" font-size="24" fill="#333333" text-anchor="middle">ระบบแจ้งเตือนอัจฉริยะ</text>
+  
+  <!-- ขั้นตอนที่ 1: อัพโหลดรูปภาพ -->
+  <rect x="50" y="100" width="150" height="80" rx="10" fill="#ffffff" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="125" y="130" font-family="Arial" font-weight="bold" font-size="16" fill="#333333" text-anchor="middle">อัพโหลดรูปภาพ</text>
+  <text x="125" y="155" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">ช่างภาพ</text>
+  
+  <!-- ขั้นตอนที่ 2: จดจำใบหน้า -->
+  <rect x="250" y="100" width="150" height="80" rx="10" fill="#ffffff" stroke="#feca57" stroke-width="2"/>
+  <text x="325" y="130" font-family="Arial" font-weight="bold" font-size="16" fill="#333333" text-anchor="middle">จดจำใบหน้า</text>
+  <text x="325" y="155" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">AI Module</text>
+  
+  <!-- ขั้นตอนที่ 3: ประมวลผลการแจ้งเตือน -->
+  <rect x="450" y="100" width="150" height="80" rx="10" fill="#ffffff" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="525" y="130" font-family="Arial" font-weight="bold" font-size="16" fill="#333333" text-anchor="middle">ประมวลผล</text>
+  <text x="525" y="155" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">Notification Module</text>
+  
+  <!-- ขั้นตอนที่ 4: ส่งการแจ้งเตือน -->
+  <rect x="650" y="100" width="100" height="80" rx="10" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="700" y="140" font-family="Arial" font-weight="bold" font-size="16" fill="#333333" text-anchor="middle">ส่งแจ้งเตือน</text>
+  
+  <!-- ลูกศรเชื่อมโยง -->
+  <line x1="200" y1="140" x2="250" y2="140" stroke="#666666" stroke-width="2"/>
+  <polygon points="245,135 255,140 245,145" fill="#666666"/>
+  
+  <line x1="400" y1="140" x2="450" y2="140" stroke="#666666" stroke-width="2"/>
+  <polygon points="445,135 455,140 445,145" fill="#666666"/>
+  
+  <line x1="600" y1="140" x2="650" y2="140" stroke="#666666" stroke-width="2"/>
+  <polygon points="645,135 655,140 645,145" fill="#666666"/>
+  
+  <!-- การแจ้งเตือนทางอีเมล -->
+  <rect x="600" y="220" width="150" height="60" rx="10" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="675" y="250" font-family="Arial" font-weight="bold" font-size="16" fill="#333333" text-anchor="middle">อีเมลแจ้งเตือน</text>
+  <text x="675" y="270" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">Nodemailer</text>
+  
+  <line x1="700" y1="180" x2="700" y2="220" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="695,215 700,225 705,215" fill="#666666"/>
+  
+  <!-- การแจ้งเตือนแบบ Real-time -->
+  <rect x="600" y="320" width="150" height="60" rx="10" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="675" y="350" font-family="Arial" font-weight="bold" font-size="16" fill="#333333" text-anchor="middle">แจ้งเตือน Real-time</text>
+  <text x="675" y="370" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">Socket.io</text>
+  
+  <line x1="700" y1="280" x2="700" y2="320" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="695,315 700,325 705,315" fill="#666666"/>
+  
+  <!-- ผู้ใช้งาน -->
+  <rect x="50" y="220" width="500" height="160" rx="10" fill="#ffffff" stroke="#dddddd" stroke-width="2"/>
+  <text x="300" y="250" font-family="Arial" font-weight="bold" font-size="18" fill="#333333" text-anchor="middle">ผู้ร่วมงาน</text>
+  
+  <!-- อุปกรณ์ผู้ใช้งาน -->
+  <rect x="80" y="280" width="120" height="80" rx="5" fill="#f0f0f0"/>
+  <text x="140" y="320" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">สมาร์ทโฟน</text>
+  
+  <rect x="240" y="280" width="120" height="80" rx="5" fill="#f0f0f0"/>
+  <text x="300" y="320" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">แท็บเล็ต</text>
+  
+  <rect x="400" y="280" width="120" height="80" rx="5" fill="#f0f0f0"/>
+  <text x="460" y="320" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">คอมพิวเตอร์</text>
+  
+  <!-- เส้นเชื่อมโยงการแจ้งเตือนไปยังผู้ใช้ -->
+  <line x1="600" y1="250" x2="550" y2="250" stroke="#666666" stroke-width="2"/>
+  <polygon points="555,245 545,250 555,255" fill="#666666"/>
+  
+  <line x1="600" y1="350" x2="550" y2="350" stroke="#666666" stroke-width="2"/>
+  <polygon points="555,345 545,350 555,355" fill="#666666"/>
+</svg> 

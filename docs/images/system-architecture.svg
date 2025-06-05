@@ -1,0 +1,85 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- พื้นหลัง -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- หัวข้อ -->
+  <text x="400" y="40" font-family="Arial" font-weight="bold" font-size="24" fill="#333333" text-anchor="middle">สถาปัตยกรรมระบบถ่ายรูปงานแต่งงาน AI</text>
+  
+  <!-- Frontend -->
+  <rect x="50" y="100" width="200" height="300" rx="10" fill="#ffffff" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="150" y="130" font-family="Arial" font-weight="bold" font-size="18" fill="#ff6b6b" text-anchor="middle">Frontend (Next.js)</text>
+  
+  <!-- Frontend Components -->
+  <rect x="70" y="150" width="160" height="40" rx="5" fill="#fff0f0"/>
+  <text x="150" y="175" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ลงทะเบียนผู้ร่วมงาน</text>
+  
+  <rect x="70" y="200" width="160" height="40" rx="5" fill="#fff0f0"/>
+  <text x="150" y="225" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">อัพโหลดรูปภาพ</text>
+  
+  <rect x="70" y="250" width="160" height="40" rx="5" fill="#fff0f0"/>
+  <text x="150" y="275" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">แกลเลอรี่รูปภาพ</text>
+  
+  <rect x="70" y="300" width="160" height="40" rx="5" fill="#fff0f0"/>
+  <text x="150" y="325" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ระบบแจ้งเตือน</text>
+  
+  <rect x="70" y="350" width="160" height="40" rx="5" fill="#fff0f0"/>
+  <text x="150" y="375" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ดาวน์โหลดรูปภาพ HD</text>
+  
+  <!-- Backend -->
+  <rect x="550" y="100" width="200" height="300" rx="10" fill="#ffffff" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="650" y="130" font-family="Arial" font-weight="bold" font-size="18" fill="#4ecdc4" text-anchor="middle">Backend (Express.js)</text>
+  
+  <!-- Backend Components -->
+  <rect x="570" y="150" width="160" height="40" rx="5" fill="#f0fffa"/>
+  <text x="650" y="175" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">API Endpoints</text>
+  
+  <rect x="570" y="200" width="160" height="40" rx="5" fill="#f0fffa"/>
+  <text x="650" y="225" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ระบบจดจำใบหน้า</text>
+  
+  <rect x="570" y="250" width="160" height="40" rx="5" fill="#f0fffa"/>
+  <text x="650" y="275" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ระบบจัดการไฟล์</text>
+  
+  <rect x="570" y="300" width="160" height="40" rx="5" fill="#f0fffa"/>
+  <text x="650" y="325" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ระบบแจ้งเตือน</text>
+  
+  <rect x="570" y="350" width="160" height="40" rx="5" fill="#f0fffa"/>
+  <text x="650" y="375" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">ระบบฐานข้อมูล</text>
+  
+  <!-- AI Module -->
+  <rect x="300" y="180" width="200" height="140" rx="10" fill="#ffffff" stroke="#feca57" stroke-width="2"/>
+  <text x="400" y="210" font-family="Arial" font-weight="bold" font-size="18" fill="#feca57" text-anchor="middle">AI Module</text>
+  
+  <!-- AI Components -->
+  <rect x="320" y="230" width="160" height="30" rx="5" fill="#fffbf0"/>
+  <text x="400" y="250" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Face Detection</text>
+  
+  <rect x="320" y="270" width="160" height="30" rx="5" fill="#fffbf0"/>
+  <text x="400" y="290" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Face Recognition</text>
+  
+  <!-- เส้นเชื่อมต่อ -->
+  <!-- Frontend to AI -->
+  <line x1="250" y1="220" x2="300" y2="220" stroke="#666666" stroke-width="2"/>
+  <polygon points="295,215 305,220 295,225" fill="#666666"/>
+  
+  <!-- AI to Backend -->
+  <line x1="500" y1="220" x2="550" y2="220" stroke="#666666" stroke-width="2"/>
+  <polygon points="545,215 555,220 545,225" fill="#666666"/>
+  
+  <!-- Backend to Database -->
+  <rect x="600" y="430" width="100" height="50" rx="5" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="650" y="460" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">MongoDB</text>
+  
+  <line x1="650" y1="400" x2="650" y2="430" stroke="#666666" stroke-width="2"/>
+  <polygon points="645,425 650,435 655,425" fill="#666666"/>
+  
+  <!-- Socket.io Connection -->
+  <line x1="550" y1="320" x2="250" y2="320" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="340" font-family="Arial" font-size="12" fill="#666666" text-anchor="middle">Socket.io Real-time Connection</text>
+  
+  <!-- Email Notification -->
+  <rect x="570" y="430" width="100" height="50" rx="5" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="620" y="460" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">Email</text>
+  
+  <line x1="600" y1="340" x2="600" y2="430" stroke="#666666" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="560" y="390" font-family="Arial" font-size="12" fill="#666666">Nodemailer</text>
+</svg> 
